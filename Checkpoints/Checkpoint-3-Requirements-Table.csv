@@ -1,0 +1,107 @@
+Unique ID,Category,User,Req. Description,Dependencies,Priority,TimeEstimate
+1,Must,System,The system must be have a website-based implementation component.,NA,10,0.5
+2,Must,System,The system must have ads to enable a steady revenue stream for the upkeep of the application.,NA,10,0.5
+3,Must,System,The system must have a homepage and/or menu including links to all necessary features of the application.,NA,10,0.5
+4,Must,Users,All users must be able to interact with a campus map containing important locations about the university that students may be interested in.,3,10,2.0
+5,Must,Users,"All users must be able to interact with the campus map dynamically, with features including scrolling, clicking, waypoints, and zooming in.",4,10,0.5
+6,Must,System,The system's map must have interactive waypoints which contain the basic information about each location.,5,10,1.0
+7,Must,Users,All users must be able to access information about each building’s responsibilities and their related services through the campus map.,4,10,0.5
+8,Must,Users,All users must be able to access information about locations of lecture halls and labs through the campus map.,4,10,0.5
+9,Must,Users,All users must be able to access information about locations of food services on campus through the campus map.,4,10,0.5
+10,Must,Users,All users must must be able to access information with quiet locations to study on campus through the campus map.,4,10,0.5
+11,Must,Users,"All users must be able to view, modify, and remove their saved waypoints from their list of bookmarked waypoints.",4,20,0.5
+12,Must,System,The system's map must contain a legend of all common icons that are displayed to improve readability of the map.,4,20,0.5
+13,Must,System,The system must require location permissions to enable the use of the campus map so that the user's location is accounted for.,4,20,0.5
+14,Must,System,The system must have a page including basic information about the university for users to refer to.,3,20,1.0
+15,Must,Users,All users must be able to access information about every degree program offered at the University.,14,20,1.0
+16,Must,Users,All users must be able to access information about student counselling services and specific programs that they offer.,14,20,1.0
+17,Must,Users,All users must be able to access information about student housing including fees and meal plan information.,14,20,1.0
+18,Must,Users,All users must be able to access contact information of important faculty members for each degree program.,14,20,1.0
+19,Must,Users,All users must be able to access information about student parking locations on campus through the campus map.,4,20,1.0
+20,Must,Users,"All users must be able to access information about student life, including activities, events and student culture.",14,20,1.0
+21,Must,System,The system must have a section on the home page dedicated to notifications sent by the application.,3,30,1.5
+22,Must,System,"The system must send notifications from the University of Guelph, as well as emergency notifications related to closures due to extreme conditions.",21,30,0.5
+23,Must,Students,Students must be able to view all previously sent notifications via a list of notifications on their notifications feed.,21,30,0.5
+24,Must,Students,Students must be able to view upcoming (event) notifications that is on their list of notifications.,21,30,0.5
+25,Must,Students,Students must be able to to delete / acknowledge notifications that were sent to clean up the notification stream.,21,30,0.5
+26,Must,Students,Students must be able to access a list of all available clubs offered at the university.,3,30,1.0
+27,Must,Moderators,Moderators must be able to control and monitor what is posted to their clubs that they are in charge of.,26,30,0.5
+28,Must,Administrators,Administrators must be able to apply bans or kicks to certain users to discipline other students that do not uphold the university's expectations of behaviour.,NA,30,0.5
+29,Must,Users,All users must be able to log in using UoG Single Sign On to access features that require an account to function.,NA,30,0.5
+30,Must,Users,All users who are not logged in must not have the same permissions as students who have logged in.,29,30,0.5
+31,Must,Users,All users must be able to log out of the system.,29,40,0.5
+32,Must,Users,All users must be able to change their username.,NA,40,0.5
+33,Must,Users,All users must have an identification handle based off of their central login ID (SSO) that they are not able to change.,NA,40,0.5
+34,Must,Users,"All users must be able to add, modify, or remove 2FA information to improve security of their account.",NA,40,1.0
+35,Must,Users,All users must be able to change their profile picture.,NA,40,0.5
+36,Should,Students,Students who are not logged in should only have access to basic information about the university and not have access to information such as clubs that are offered.,30,40,0.5
+37,Should,Students,Students who are associated with the university but do not have a Single Sign On should be able to sign on with social media.,29,40,0.5
+38,Should,Students,Students should be able to create memos/notes on the campus map and make their current location only available to them.,5,40,1.0
+39,Should,System,"Each waypoint on the campus map should include the contact information for important people and groups for that location, if possible.",6,40,0.5
+40,Should,Users,All users should be able to access information for off-campus locations affiliated with the university.,4,40,0.5
+41,Should,System,The waypoints on the campus map for each residence building should include basic information about the residence.,6,50,0.5
+42,Should,System,"The system should include information about student housing services, including frequently-asked questions about individual residence buildings.",14,50,0.5
+43,Should,Students,Students should be able to create their own notifications for a specific day with an included message.,21,50,1.0
+44,Should,Students,Students should be able to set an urgency of notifications that they create.,43,50,0.5
+45,Should,Students,Students should be able to create recurring notifications that will alert the user at a specific time.,43,50,0.5
+46,Should,System,"Recurring notifications sent by the system should be able to be set on a daily, weekly, biweekly, monthly, bimonthly, or yearly basis.",45,50,0.5
+47,Should,Students,Students should be able to edit any notifications that they created.,43,50,0.5
+48,Should,Students,Students should be able to find upcoming events being hosted on their notification feed.,21,50,0.5
+49,Should,Students,Students should be able to join or leave specific clubs/groups via this application.,26,50,0.5
+50,Should,Students,Students who are approved by moderators of a group should be allowed to submit content to that group.,49,50,0.5
+51,Should,Students,Students should be able to block other students who use the application for privacy purposes.,NA,60,0.5
+52,Should,System,The system should be able to support text translation from the app to another language.,NA,60,0.5
+53,Should,System,The system should be able to support voice commands used to interact with the app.,NA,60,1.5
+54,Should,System,The system should be able to be fully navigable through the voice commands,53,60,1.5
+55,Should,System,"The system should be able to support text-to-speech, like a screen reader, to convey system information.",NA,60,1.5
+56,Should,System,The system should be able to support color-blind themes to allow users to view the interface without loss of information.,NA,60,0.5
+57,Should,Administrators,"Administrators should be able to use advanced security features for their account to log in that other users do not have access to, such as biometrics.",29,60,2.0
+58,Should,Administrators,Administrators should be able to delete or modify content from other users that have posted on or submitted to group forums.,50,60,0.5
+59,Should,Administrators,"Administrators must be able to revoke privileges of other users, including messaging and viewing certain pages.",28,60,0.5
+60,Should,Administrators,"Administrators should be able to view all pages on the application, including any restricted pages from other users.",NA,60,0.5
+61,Should,Administrators,Administrators should be able to remove problematic groups and users from the application,26,70,0.5
+62,Should,System,The system should have scheduled maintenance windows (during downtimes) to improve network speeds,NA,70,0.5
+63,Should,System,"The system should be capable of handling over 500,000 users concurrently with less than a 5% performance drop",NA,70,0.5
+64,Should,System,The system should allow administrator-approved users (type of moderator) to submit content to information pages to keep the application up to date.,14,70,1.0
+65,Could,Users,All users could be able to view a list of tutorials and/or tips and tricks on how to use the application.,NA,70,0.5
+66,Could,System,"The system could have a desktop app functional with Windows, Linux, and MacOS.",NA,70,0.5
+67,Could,System,The system could pull information from the university's page to update information so that the application remains up to date.,NA,70,1.0
+68,Could,System,The system could have an iOS and Android (mobile) implementation.,NA,70,0.5
+69,Could,System,"If the user is using the application through the phone, all important and emergency notifications could be distributed via a push notification for the user's device.",68,70,0.5
+70,Could,System,The system could have a dark theme/mode to provide an alternative option that saves energy and is easier on the eyes of some users.,NA,70,0.5
+71,Could,Students,"Students could be able to access basic information of other students, including name, username, profile picture, and club memberships.",NA,80,0.5
+72,Could,System,Each waypoint for each residence could include food options located in the residence.,41,80,0.5
+73,Could,System,The campus map could update information real-time using features from external APIs such as Google Maps.,4,80,1.0
+74,Could,Students,Students could be able to bookmark specific waypoints that they are interested in.,6,80,0.5
+75,Could,Students,Students could be able to view all bookmarked locations in a centralized location.,74,80,0.5
+76,Could,Users,"All users could be able to view on and off-campus, university-affiliated volunteering opportunities.",14,80,0.5
+77,Could,Students,"Students could be able to register for on and off-campus, university-affiliated volunteering opportunities.",76,80,0.5
+78,Could,Students,"Students could be able to schedule counselling services appointments inside the page related, such as mental health and program counselling.",16,80,0.5
+79,Could,Users,All users could be able to access information about SLGs and group clusters for a particular course or degree program.,20,80,0.5
+80,Could,Students,Students could be able to ask questions to a forum for moderators to answer.,NA,80,0.5
+81,Could,Students,Students could be able to view their notifications on a calendar to provide an easier way to view their upcoming notifications.,21,90,1.0
+82,Could,System,The calendar could default to a monthly view.,81,90,0.5
+83,Could,Students,"Students could be able to change the view of the calendar to a daily, weekly, or yearly view.",82,90,0.5
+84,Could,System,The campus map could include information about interior layouts of lecture halls and labs.,8,90,0.5
+85,Could,System,The campus map could include information about locations that take the student meal plan off-campus.,9,90,0.5
+86,Could,Students,"Students could be able to search for available clubs by keywords, including name, program type, location.",26,90,0.5
+87,Could,Students,Students could be able to view basic information about a club to determine if they are interested in joining.,49,90,0.5
+88,Could,System,Each club in the system could have a group messaging board only available to members of that group.,49,90,0.5
+89,Could,Students,"Students could be able to edit messages that they have sent to a group until 5 minutes, where they can no longer edit their message.",88,90,0.5
+90,Could,Students,Students could be able to react to other member's messages.,89,90,0.5
+91,Could,Moderators,Moderators could be able to send links to users so they can submit reviews on how much they enjoyed their experience in a particular residence.,41,100,1.0
+92,Could,System,"Each review could be on a 5-star rating, including comments about what the user thought about the residence",91,100,0.5
+93,Could,System,Each review could be approved by a content moderator to ensure it is appropriate and not inflammatory.,91,100,0.5
+94,Wont,System,The system won't ask for microphone and file system permissions.,NA,NA,NA
+95,Wont,System,The system won't allow the user to make phone calls.,NA,NA,NA
+96,Wont,Users,All users won't be able to purchase official merchandise from the university through the software.,NA,NA,NA
+97,Wont,System,The system won't handle invalid login credentials or password reset requests since UoG Single Sign On is responsible for this functionality.,29,NA,NA
+98,Wont,System,The system won't have a friends list feature.,NA,NA,NA
+99,Wont,Students,Students won't be able to add other students to a friend list.,99,NA,NA
+100,Wont,Students,"Students won't be able to follow other student accounts, only moderator accounts and above so they can manage a group page.",99,NA,NA
+101,Wont,Students,Students won't be able to private message other students of the application.,29,NA,NA
+102,Wont,System,The system's campus map won't have route information on how to get to certain classes.,4,NA,NA
+103,Wont,System,The system's campus map won't show times of peak foot traffic on campus.,4,NA,NA
+104,Wont,System,The system's campus map won't have real-time updates on the Guelph bus schedule.,4,NA,NA
+105,Wont,Students,Students won't be able to interact with groups that they are not a member of.,26,NA,NA
+106,Wont,Students,"Students won't be allowed to create new groups, only moderator accounts and above.",26,NA,NA

@@ -1,0 +1,122 @@
+===========================
+Checkpoint 1: 5/5 = 100%
+---------------------------
+
+Specification Conformance - 1/1
+Conformed to guidelines set out. Document is professional, easy to follow, visually appealing,
+and consistent. Has a homepage.
+
+Idea Generation - 2/2
+Remove student ID. Correct titles. Lots of ideas generated. Ideas are further organized into different
+categories. 
+
+Biography - 2/2
+Remove student ID. Include a picture for each member.
+
+Total: 5/5
+
+===========================
+Checkpoint 2: 10/10 = 100%
+---------------------------
+
+A) Specification Conformance   1/1
+      - Has a homepage.
+      - Sections are correctly titled and has seperate pages.
+      - Used paragraphs and point form where necessary.
+      - Not talking about low level technology.
+
+B) User Personas               4/4
+      - User Personas are compelling.
+      - Identified five different user groups and described them.
+      - Explained why they chose the demographics.
+      - Each persona has all demographics. Demographics are all consistent with
+        one another.
+
+C) User Epics and Stories      5/5
+      - Stories describe 1 thing that the user does in the system.
+      - Wrote at least 15 stories. Wrote more than 15 stories
+      - Wrote two stories per persona.
+      - Specified ideas from checkpoint 1 and provided justification.
+      - Stories covered the functionality to allow users to set
+        notifications or personal reminders.
+
+
+Comments:
+Very polished piece of work. Keep it up!
+
+Total: 10/10
+
+===========================
+Checkpoint 3: 10/10 = 100%
+---------------------------
+
+A) Specification Conformance            1/1
+      - Has a homepage.
+      - Sections are correctly titled and has seperate pages.
+      - Used paragraphs and point form where necessary.
+      - Not talking about low level technology.
+
+B) Definitions & Concepts               3/3
+      - Definitions are written in plain english
+      - Jargon terms are defined here
+C) Requirements                         6/6
+      - Has more than 100 requirements
+      - Requirements are mostly complete
+Comments:
+
+Total: 10/10
+
+===========================
+Checkpoint 4: 9.7/10 = 97%
+---------------------------
+
+A) Use Cases                                    2/2
+      - Has 2 use cases with 1 fully dressed. 
+      - Each use case is complete and high priority.
+
+B) Paper prototyping & Usability Testing        7.7/8
+      - Usability Testing Sesions               2.7/3
+          participant 1:
+            - Someone other than the facilitator talked.
+            - Had good flow and screen made sense and were modular
+          participant 2:
+            - Explaination thorough, presented scenario
+            - Calm computers
+            - Good eye contact, 1 facilitator
+            - Find out user at start not end.
+            - Talk at user level
+            - Comouters observed
+          participant 3:
+            - Good intro
+            - Good improvisation
+
+      - Post-Mortem: Session Description        2/2
+          - Indicated who took part in the session and what each team member
+            did.
+
+          - Indicated information learned about the person taking part in the
+            session.
+
+      - Post-mortem: Stop/Start/Continue        3/3
+          - Identified common problems for all 3 participants
+
+
+Comments:
+
+Total: 9.7/10
+
+===========================
+Exams
+---------------------------
+Midterm 1: 20.5/23 = 89.13%
+---------------------------
+Midterm 2: 25/28 = 89.29%
+---------------------------
+Final Exam: COVID-CANCELLED
+===========================
+
+===========================
+Final Project Report (Presentation: COVID-CANCELLED)
+---------------------------
+TBA
+

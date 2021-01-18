@@ -1,0 +1,25 @@
+Unique ID,Category,User,Req. Description,Dependencies,Priority,TimeEstimate
+,,,,,,
+1,Must,Admin,Requirement 1,NA,10,3
+,,,,,,
+2,Must,Admin,Requirement 2,NA,10,3
+,,,,,,
+3,Must,Admin,Requirement 3,2,10,3
+,,,,,,
+4,Should,Admin,Requirement 4,2,10,3
+,,,,,,
+5,Must,Admin,Requirement 5,1,10,3
+,,,,,,
+6,Could,Admin,Requirement 6,8,10,3
+,,,,,,
+8,Should,Admin,Requirement 7,2,10,3
+,,,,,,
+7,Should,Admin,Requirement 8,4,10,3
+,,,,,,
+9,Could,Admin,Requirement 9,4,10,3
+,,,,,,
+10,Could,Admin,Requirement 10,9,10,3
+,,,,,,
+11,Could,Admin,Requirement 11,NA,10,3
+,,,,,,
+12,Wont,Admin,Requirement 12,NA,10,3
